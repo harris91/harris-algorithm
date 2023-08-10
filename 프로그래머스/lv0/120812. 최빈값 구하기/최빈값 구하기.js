@@ -1,12 +1,11 @@
 function solution(array) {
-    const sortedArray = array.reduce((acc, cur) => {
-        if(acc[cur]) acc[cur].count += 1
-        else acc[cur] = {num:cur, count:1}
-        return acc
-    },[]).sort((a,b) => b.count - a.count)
+    let max = 0;
+    const removedDuplicateArray = [...new Set(array)]
+    const filteredArray = removedDuplicateArray.map(key => {
+        const count = array.filter(v => v == key).length
+        if(count > max) max = count
+        return {key, count}
+    }).filter(v => v.count == max)
     
-    const max = sortedArray[0].count
-    const filterdArray = sortedArray.filter(v => v.count == max)
-    
-    return filterdArray.length > 1 ? -1 : filterdArray[0].num
+    return filteredArray.length > 1 ? -1 : filteredArray[0].key
 }

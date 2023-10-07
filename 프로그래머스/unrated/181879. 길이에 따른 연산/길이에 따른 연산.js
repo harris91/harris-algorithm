@@ -1,0 +1,1 @@
+const solution = (list) => list.length > 10 ? list.reduce((a,c) => a+=c) : list.reduce((a,c) => a*=c)

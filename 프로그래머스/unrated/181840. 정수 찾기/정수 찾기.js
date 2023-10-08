@@ -1,0 +1,1 @@
+const solution = (list,n) => list.includes(n)*1

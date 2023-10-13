@@ -1,0 +1,1 @@
+const solution = (n,t) => 2**t*n

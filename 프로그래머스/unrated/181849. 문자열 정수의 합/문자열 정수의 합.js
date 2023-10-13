@@ -1,0 +1,1 @@
+const solution = s => s.split("").reduce((acc,cur) => +acc + +cur);

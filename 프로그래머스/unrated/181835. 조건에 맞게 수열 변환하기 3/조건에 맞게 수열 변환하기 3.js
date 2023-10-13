@@ -1,0 +1,1 @@
+const solution = (arr,k) => k%2 ? arr.map(n => n*k) : arr.map(n => n+k)

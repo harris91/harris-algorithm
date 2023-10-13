@@ -1,1 +1,1 @@
-const solution = (a,b) => String(a)+b > String(b)+a ? +(String(a)+b) : +(String(b)+a)
+const solution = (a,b) => Math.max(`${a}${b}`,`${b}${a}`)

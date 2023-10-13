@@ -1,1 +1,1 @@
-const solution = arr => arr.indexOf(arr.find(n => n < 0))
+const solution = arr => arr.findIndex(n => n < 0)

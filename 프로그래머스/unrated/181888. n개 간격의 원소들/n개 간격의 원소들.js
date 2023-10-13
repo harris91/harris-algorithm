@@ -1,12 +1,1 @@
-const solution = (arr,n) => {
-    let i = n
-    return arr.filter(num => {
-        if(i == n) {
-            i = 1
-            return num
-        } 
-        else {
-            i++
-        }
-    })
-}
+const solution = (num_list, n) => num_list.filter((_, i) => !(i % n))

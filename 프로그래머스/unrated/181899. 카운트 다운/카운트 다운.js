@@ -1,1 +1,1 @@
-const solution = (s,e) => [...Array(s-e+1)].map((n,i) => s-i)
+const solution = (s,e) => [...Array(s-e+1)].map((_,i) => s-i)

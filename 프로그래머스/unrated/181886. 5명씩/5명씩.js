@@ -1,0 +1,1 @@
+const solution = arr => arr.filter((n,i) => !(i%5))

@@ -1,0 +1,1 @@
+const solution = (n,k) => [...Array(~~(n/k))].map((_,i) => k*(i+1))

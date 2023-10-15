@@ -1,0 +1,1 @@
+const solution = (s,t) => +(s.includes(t))

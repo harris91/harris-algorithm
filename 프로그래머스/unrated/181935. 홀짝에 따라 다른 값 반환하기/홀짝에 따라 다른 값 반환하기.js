@@ -1,0 +1,1 @@
+const solution = n => (n%2 ? [...Array((n+1)/2)].map((_,i)=>i*2+1):[...Array(n/2)].map((_,i)=> ((i+1)*2)**2)).reduce((a,c) => a+c)

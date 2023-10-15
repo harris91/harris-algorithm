@@ -1,0 +1,1 @@
+const solution = (s,arr) => arr.map(i => s[i]).join('')

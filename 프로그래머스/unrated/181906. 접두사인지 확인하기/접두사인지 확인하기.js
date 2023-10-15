@@ -1,0 +1,1 @@
+const solution = (s,p) => +(s.indexOf(p)==0)

@@ -1,0 +1,1 @@
+const solution = (s,p) => p.map((arr,i) => s[i].slice(arr[0],arr[1]+1)).join("")

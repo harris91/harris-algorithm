@@ -1,0 +1,1 @@
+const solution = (todo, done) => todo.filter((_,i) => !done[i])

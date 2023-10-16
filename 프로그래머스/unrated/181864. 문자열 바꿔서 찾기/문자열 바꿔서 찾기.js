@@ -1,1 +1,1 @@
-const solution = (str, pat) => +str.replaceAll("A", "T").replaceAll("B", "A").replaceAll("T", "B").includes(pat)
+const solution = (str, pat) => +[...str].map(c => c == "A" ? "B" : "A").join("").includes(pat)

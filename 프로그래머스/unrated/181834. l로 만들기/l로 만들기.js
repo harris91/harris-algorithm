@@ -1,0 +1,1 @@
+const solution = str => str.replaceAll(/[a-k]/g, 'l')

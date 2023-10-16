@@ -1,0 +1,1 @@
+const solution = s => s.trim().replace(/ +/g, " ").split(" ")

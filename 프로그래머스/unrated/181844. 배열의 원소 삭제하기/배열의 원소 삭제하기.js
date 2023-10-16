@@ -1,0 +1,1 @@
+const solution = (arr, del) => arr.filter(n => !del.includes(n))

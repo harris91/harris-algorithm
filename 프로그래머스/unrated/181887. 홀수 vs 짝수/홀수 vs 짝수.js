@@ -1,4 +1,1 @@
-const solution = list => Math.max(...list.reduce((a,c,i) => {
-    a[i%2] += c;
-    return a;
-},[0,0]))
+const solution = list => Math.max(...list.reduce(([o,e],c,i) => i%2 ? [o+c, e] : [o,e+c] ,[0,0]))

@@ -1,1 +1,1 @@
-const solution = arr => arr.reduce((a,c) =>  [...a, ...Array(c).fill(c)], [])
+const solution = arr => arr.reduce((a,c) =>  a.concat(...Array(c).fill(c)), [])

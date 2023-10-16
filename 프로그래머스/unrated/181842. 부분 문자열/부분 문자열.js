@@ -1,0 +1,1 @@
+const solution = (str, str2) => +str2.includes(str)

@@ -1,0 +1,1 @@
+const solution = str => [...str].map(s => s.toLowerCase() == s ? s.toUpperCase() : s.toLowerCase()).join("")

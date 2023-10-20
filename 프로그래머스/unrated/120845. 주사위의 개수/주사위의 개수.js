@@ -1,0 +1,1 @@
+const solution = (b,n) => b.reduce( (a,c) => a*~~(c/n),1)

@@ -1,1 +1,1 @@
-const solution = r => r.split("").map(n => n == 5 ? "2" : n*1 ? "0" : "5").join("")
+const solution = r => r.split("").map(n => n == 5 ? "2" : +n ? "0" : "5").join("")

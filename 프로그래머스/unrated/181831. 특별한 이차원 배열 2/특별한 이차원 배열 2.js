@@ -1,0 +1,1 @@
+const solution = arr => +arr.every((_,i) => arr[i].every((__,j) => arr[i][j] == arr[j][i]))

@@ -1,0 +1,1 @@
+const solution = s => [...s].filter(c => Number(c) >= 0).map(c => +c).sort((a,b) => a-b)

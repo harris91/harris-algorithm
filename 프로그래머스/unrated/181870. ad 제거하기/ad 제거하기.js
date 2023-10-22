@@ -1,0 +1,1 @@
+const solution = s => s.filter(v => !v.includes('ad'))

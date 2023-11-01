@@ -1,0 +1,1 @@
+const solution = str => Array(str.length).fill().map((_,i) => str.slice(i)).sort()

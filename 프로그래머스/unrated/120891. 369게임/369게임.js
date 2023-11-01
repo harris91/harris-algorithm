@@ -1,0 +1,1 @@
+const solution = order => String(order).split('').filter(v => v != 0 && v%3 == 0).length

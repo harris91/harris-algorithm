@@ -1,0 +1,1 @@
+const solution = n => n.split("").reduce((acc,cur) => { return acc+cur*1},0)%9

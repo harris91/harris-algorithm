@@ -1,0 +1,1 @@
+const solution = (d1,d2) => +(d1.join("")*1 < d2.join("")*1)
